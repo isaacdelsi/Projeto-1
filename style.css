@@ -1,9 +1,10 @@
 *{
+    font-family: 'raleway', sans-serif;
     margin: 0px;
 }
 /*MENU SUPERIOR*/
 #menusuperior{
-    font-family: 'Inter', sans-serif;
+    font-family: 'raleway', sans-serif;
     color: #ffffff;
     background-color: #303030;
 }
@@ -19,7 +20,7 @@
 
 /*MENU INFORMATIVO*/
 #menuinformativo{
-    font-family: 'Inter', sans-serif;
+    font-family: 'raleway', sans-serif;
     background-color: #f9f9f9;
     padding-top: 80px;
     padding-bottom: 66px;
@@ -30,7 +31,7 @@
 }
 
 #menuprincipal{
-    font-family: 'Inter', sans-serif;
+    font-family: 'raleway', sans-serif;
     display: grid;
     grid-auto-flow: column;
 
@@ -72,7 +73,7 @@ strong{
 }
 
 #texto-formulario{
-    font-family: 'Inter', sans-serif;
+    font-family: 'raleway', sans-serif;
     font-size: 28px;
     margin: 25px;
 }
