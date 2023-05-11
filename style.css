@@ -1,5 +1,4 @@
 *{
-    
     margin: 0px;
 }
 /*MENU SUPERIOR*/
@@ -17,27 +16,6 @@
 #texto-menusuperior{
     padding: 15px 0px 149px 52px;
 }
-#menusuperior::after{
-    content:"";
-    position: absolute;
-    display: block;
-    margin-top: 7px;
-    height: 2px;
-    width: 100%;
-    background-color: #303030
-
-}
-#menusuperior::before{
-    content:"";
-    position: absolute;
-    display: block;
-    margin-top: 7px;
-    height: 2px;
-    width: 100%;
-    background-color: #ffffff
-
-}
-
 
 /*MENU INFORMATIVO*/
 #menuinformativo{
@@ -50,6 +28,7 @@
     grid-auto-flow: column;
     text-align: justify;
 }
+
 #menuprincipal{
     font-family: 'Inter', sans-serif;
     display: grid;
@@ -63,6 +42,7 @@
     text-align: justify;
     font-size: 33px;
 }
+
 #texto-menuprincipal{
     margin-left: 120px;
     color: black;
@@ -81,7 +61,8 @@
 strong{
     font-size: 30px;
 }
- /*FORMULARIO*/
+
+/*FORMULARIO*/
 #formulario{
     text-align: center;
     background-color: #303030;
@@ -89,6 +70,7 @@ strong{
     padding-top: 60px;
     padding-bottom: 30px;
 }
+
 #texto-formulario{
     font-family: 'Inter', sans-serif;
     font-size: 28px;
@@ -108,7 +90,6 @@ input{
     color: rgba(20, 20, 20, 0.884);
     font-family: 'Raleway', sans-serif;    
 }
-
 
 button{
     margin:30px;
